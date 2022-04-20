@@ -8,7 +8,7 @@ cask "ovice-app" do
   if Hardware::CPU.intel? 
     url "https://github.com/sskmy1024y/oVice-app/releases/download/v#{version}/oVice-app-#{version}.dmg"
   else
-    url "https://github.com/sskmy1024y/oVice-app/releases/download/v#{version}/oVice-app-#{version}-arm64.dmg"w
+    url "https://github.com/sskmy1024y/oVice-app/releases/download/v#{version}/oVice-app-#{version}-arm64.dmg"
   end
 
   depends_on macos: ">= :sierra"
