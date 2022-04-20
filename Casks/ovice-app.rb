@@ -1,5 +1,5 @@
 cask "ovice-app" do
-  version "1.0.0"
+  version "1.1.0"
   name "oVice app"
   desc "Desktop application for oVice user"
   homepage "https://github.com/sskmy1024y/oVice-app"
@@ -8,7 +8,7 @@ cask "ovice-app" do
   if Hardware::CPU.intel? 
     url "https://github.com/sskmy1024y/oVice-app/releases/download/v#{version}/oVice-app-#{version}.dmg"
   else
-    url "https://github.com/sskmy1024y/oVice-app/releases/download/v#{version}/oVice-app-#{version}-arm64.dmg"
+    url "https://github.com/sskmy1024y/oVice-app/releases/download/v#{version}/oVice-app-#{version}-arm64.dmg"w
   end
 
   depends_on macos: ">= :sierra"
