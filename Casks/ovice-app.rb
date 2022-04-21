@@ -1,5 +1,5 @@
 cask "ovice-app" do
-  version "1.1.0"
+  version "1.1.1"
   name "oVice app"
   desc "Desktop application for oVice user"
   homepage "https://github.com/sskmy1024y/oVice-app"
